@@ -14,23 +14,39 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Interface Development Test
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Design assets
+* Invision public URL: https://invis.io/N312IJ0C8GMK
+* Assets used in the build have been packaged under the `/assets` folder.
 
-## Learn More
+## Test instructions
+In the linked Invision page you will find the designs for two components. Complete the following:
+* The code should be submitted via a github account. Bonus points for more than one commit.
+* Build the two blocks using modern HTML5 standards.
+* Use JavaScript to capture all anchor clicks, and `console.log()` the element which has been clicked.
+* As with any modern web-build we expect a level of interactivity/animation to be displayed on the nodes.
+* All content areas should be deemed as being populated from a CMS - so all copy lengths can vary!
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies
+* Any CSS-preprocessors or frameworks.
+* ES5 or ES6+ acceptable.
+* Please include some reasoning for the decisions via comments or readme.
+* Build tools and task runners are encouraged (e.g. grunt/gulp/webpack).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Layout
+* The layout is expected to work in the latest Chrome/FireFox/Edge versions.
+* The layout should be responsive and work down to a `320px` mobile device.
+* Bearing in mind that this application is expected to be responsive, the developer should consider the appropriate `<meta>` tags.
+* **Section: All the latest:** Assume these items need anchor tags, but have no link defined.
+* **Section: Answer your body's needs:** Each image in this section should display in a modal on click.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Review Criteria
+We are looking for your ability to bring life to static designs. During that process consider the following:
+* **Project structure:** Clean project and logical traversal.
+* **JavaScript:** Efficiency of code and efficacy in bringing the design to life.
+* **Interface:** Semantic markup styling.
+* **Git:** Bonus points for submission on a github account showing multiple commits.
+* **Quality:** Production-grade build and precision.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
