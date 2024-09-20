@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div className="flex col-span-2 lg:col-span-1 flex-col gap-[6vw] w-auto">
             <div className="flex gap-[2vw] flex-col">
-              <h1 className="md:text-[32px] font-openSansSemiCondensed font-[300] lg:text-[1.8vw] border-b-2 pb-[1vw] border-white">
+              <h1 className="text-[28px] md:text-[6vw] font-openSansSemiCondensed font-[300] lg:text-[1.8vw] xl:text-[32px] border-b-2 pb-[1vw] border-white">
                 ANSWER YOUR BODY'S NEEDS
               </h1>
               <p className="md:text-[18px] lg:text-[1.38vw] xl:text-[18px]">
@@ -80,14 +80,14 @@ export default function Home() {
               <h3 className="md:text-[32px] text-red-600">
                 BE MINDFUL
               </h3>
-              <p className="md:text-[18px] font-bold lg:text-[1.4vw] xl:text-[px]">
+              <p className="md:text-[18px] font-bold lg:text-[1.4vw] xl:text-[18px]">
                 Sourcing local or organic food is a good way to start being more mindful about what you're cooking and eating.
               </p>
             </div>
           </div>
         </div>
         <div className="flex flex-col items-center gap-8 md:gap-24 w-full">
-          <h1 className="font-openSans font-[300] md:text-[4vw]">
+          <h1 className="font-openSans font-[300] md:text-[4vw] xl:text-[48px]">
             ALL THE LATEST FROM AEG
           </h1>
           <div className="flex w-full justify-center flex-col">
